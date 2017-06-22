@@ -1,0 +1,154 @@
+.nav-menu:nth-child(3){
+    background: #fa7433;
+}
+
+/*content区*/
+.download{
+    margin-bottom: 40px;
+    background: #5878E9;
+}
+
+.back-img{
+    width: 890px;
+    margin: 0 auto;
+}
+.back-img img{
+    width: 90%;
+}
+
+/*资讯列表*/
+
+#clone{
+    display: none;
+}
+
+.zx-list{
+    position: relative;
+}
+
+.zx-list li{   
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+.zx-detail{
+    padding: 54px 168px 102px
+}
+
+.zx-left{
+    position: relative;
+    float: left;
+    width: 120px;
+    height: 180px;
+    box-sizing: border-box;
+}
+
+.zx-right{
+    position: relative;
+    float: right;
+    width: 1030px;
+    height: 180px;
+    padding: 0 58px;
+    box-sizing: border-box;
+    border-left:1px solid #cccccc;
+}
+
+.zx-left span:nth-child(1){
+    position: absolute;
+    width: 28px;
+    height: 4px;
+    background: url("../img/activity-line.png");
+}
+
+.zx-left span:nth-child(2){
+    position: absolute;
+    top: 30px;
+    width: 94px;
+    height: 57px;
+    line-height: 57px;
+    font-size: 42px;
+    font-weight: bold;
+    color: #8A8A8A;
+}
+
+.zx-left span:nth-child(3){
+    position: absolute;
+    top: 87px;
+    width: 42px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #8A8A8A;
+}
+
+.zx-right h3{
+    height: 24px;
+    padding-bottom: 16px;
+    color: #494944;
+}
+.zx-right p{
+    font-size: 14px;
+}
+
+.zx-right input{
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+    width: 77px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: none;
+    background: #ff4a19;
+    color:#ffffff;
+}
+
+.page{
+    position: absolute;
+    left: 180px;
+    bottom: -40px;
+}
+
+.page a{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin-right: 15px;
+    line-height: 26px;
+    text-align: center;
+    background: black;
+    color:white;
+}
+
+/*底部*/
+footer{
+    position: relative;
+    padding-top: 40px;
+    background: #575757;
+    color: #fff;
+    line-height: 30px;
+    font-size: 12px;
+}
+footer a{
+        color: #fff;
+}
+footer .lia{
+    padding: 0 5px;
+    border-right: 1px solid #fff;
+}
+
+footer .lia-first{
+    padding-left: 0;
+}
+footer .foot-left{
+    float: left;
+}
+
+footer .foot-left li{
+    float: left;
+}
+footer .foot-right{
+    display: block;
+    float: left;
+    margin-left: 50px;
+}

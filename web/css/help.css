@@ -1,0 +1,155 @@
+.nav-menu:nth-child(2){
+    background: #fa7433;
+}
+
+/*content区*/
+.download{
+    margin-bottom: 40px;
+    background: #5878E9;
+}
+
+.back-img{
+    width: 890px;
+    margin: 0 auto;
+}
+.back-img img{
+    width: 90%;
+}
+
+.help-top{
+    height: 252px;
+    padding:180px 60px 20px 60px;
+    background:url("../img/help-back.png") no-repeat center -160px;
+    box-sizing: border-box;
+    font: 400 14px/20px "微软雅黑";
+}
+
+
+.help-content h1{
+    margin-left:20px;
+    margin-bottom: 20px;
+    color: #FF4A19;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+#help-box{
+    position: relative;
+    border:1px solid #E0E0E0;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.help-arrow{
+    position: absolute;
+    width: 14px;
+    height: 10px;
+    background: url("../img/arrow-bd.png") no-repeat;
+    display: block;
+    top: -10px;
+    left: 36px;
+}
+
+.help-main{
+    background: #fafafa;
+    padding-bottom: 50px;
+}
+
+.help-left ul{
+    width: 260px;
+    padding:30px 60px;
+    box-sizing: border-box;
+}
+
+.help-left li{
+    height: 86px;
+    line-height: 86px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #E0E0E0;
+    cursor: pointer;
+}
+
+
+
+/*.help-left li:hover{
+    background-color: #ffffff;
+    cursor: pointer;
+}*/
+
+.help-left,.help-right{
+    float: left;
+}
+
+.help-right{
+    padding: 30px 50px 0 50px;
+    width: 880px;
+    box-sizing: border-box;
+    border-left: 1px solid #E0E0E0;
+}
+
+.help-right ul.direction{
+    display: block;
+}
+
+.help-right ul.fundesc{
+    display: none;
+}
+
+.help-right ul.ofpro{
+    display: none;
+}
+
+.help-right li{
+    margin-bottom: 30px;
+}
+
+.help-right li h6{
+
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #1D74D6;
+    background:url("../img/hellp-xx.png") no-repeat left center;
+    padding-left: 30px;
+}
+
+.help-right li p{
+    font:400 14px/26px "微软雅黑";
+    
+}
+
+
+/*底部*/
+footer{
+    position: relative;
+    padding-top: 40px;
+    background: #575757;
+    color: #fff;
+    line-height: 30px;
+    font-size: 12px;
+}
+footer a{
+        color: #fff;
+}
+footer .lia{
+    padding: 0 5px;
+    border-right: 1px solid #fff;
+}
+
+footer .lia-first{
+    padding-left: 0;
+}
+footer .foot-left{
+    float: left;
+}
+
+footer .foot-left li{
+    float: left;
+}
+footer .foot-right{
+    display: block;
+    float: left;
+    margin-left: 50px;
+}
